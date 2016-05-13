@@ -1,0 +1,670 @@
+#defaulttheme {
+ margin: 0px;
+ padding: 0px;
+}
+	#defaulttheme table {
+		font-family: Tahoma;
+		font-size: 11px;
+		color: #333333;
+		text-decoration: none;
+	}
+
+	#defaulttheme .gridTable {
+		border-collapse:collapse;
+	}
+
+	#defaulttheme .gridHeader {
+		text-decoration: none;
+		width: 100%;
+		table-layout:fixed;
+	}
+
+	#defaulttheme .gridHeaderBG {
+		text-decoration: none;
+		background-color: #9D9FAA;
+		border-top: 1px solid #878992;
+		border-bottom: 1px solid #878992;
+	}
+
+	#defaulttheme .gridHeaderBGLeft {
+		text-decoration: none;
+		background-color: #9D9FAA;
+		height: 30px;
+		width: 2px;
+		border-left: 1px solid #878992;
+	}
+
+	#defaulttheme .gridHeaderBGRight {
+		text-decoration: none;
+		background-color: #9D9FAA;
+		height: 30px;
+		width: 2px;
+		border-right: 1px solid #878992;
+	}
+
+	#defaulttheme .gridHeaderText {
+		font-size: 12px;
+		font-weight: bold;
+		color: #FFFFFF;
+		text-decoration: none;
+	}
+
+	#defaulttheme .gridToolBar {
+		font-size: 12px;
+		text-decoration: none;
+		background-color: #EFEFEF;
+		height: 25px;
+		width: 100%;
+		padding-right: 2px;
+		padding-left: 2px;
+		border-right: 1px solid #B2B2B2;
+		border-left: 1px solid #B2B2B2;
+	}
+
+	#defaulttheme .gridToolBarText {
+		font-size: 11px;
+		font-weight: bold;
+		color: #454545;
+		text-decoration: none;
+	}
+
+	#defaulttheme a.gridToolBarLink:link {
+		font-size: 11px;
+		font-weight: bold;
+		color: #707070;
+		text-decoration: none;
+	}
+
+	#defaulttheme a.gridToolBarLink:active {
+		font-size: 11px;
+		font-weight: bold;
+		color: #707070;
+		text-decoration: none;
+	}
+
+	#defaulttheme a.gridToolBarLink:visited {
+		font-size: 11px;
+		font-weight: bold;
+		color: #707070;
+		text-decoration: none;
+	}
+
+	#defaulttheme a.gridToolBarLink:hover {
+		font-size: 11px;
+		font-weight: bold;
+		color: #000000;
+		text-decoration: underline;
+	}
+
+	#defaulttheme .gridMain {
+		text-decoration: none;
+		width: 100%;
+		border-right: 1px solid #B2B2B2;
+		border-left: 1px solid #B2B2B2;
+	}
+
+	#defaulttheme .gridColumn {
+		text-decoration: none;
+		background-color: #DFE0E1;
+		text-align: center;
+		height: 25px;
+		border-right: 1px solid #C8C8CA;
+		border-bottom: 1px solid #C8C8C8;
+	}
+
+	#defaulttheme .gridColumnText {
+		font-weight: bold;
+		color: #454545;
+		text-decoration: none;
+		text-align: center;
+		vertical-align: middle;
+	}
+
+	#defaulttheme a.gridColumnLink:link {
+		font-weight: bold;
+		color: #707070;
+		text-decoration: none;
+	}
+
+	#defaulttheme a.gridColumnLink:active {
+		font-weight: bold;
+		color: #707070;
+		text-decoration: none;
+	}
+
+	#defaulttheme a.gridColumnLink:visited {
+		font-weight: bold;
+		color: #707070;
+		text-decoration: none;
+	}
+
+	#defaulttheme a.gridColumnLink:hover {
+		font-weight: bold;
+		color: #000000;
+		text-decoration: underline;
+	}
+
+	#defaulttheme a.gridBodyLink:link {
+		color: #707070;
+		text-decoration: none;
+	}
+
+	#defaulttheme a.gridBodyLink:active {
+		color: #707070;
+		text-decoration: none;
+	}
+
+	#defaulttheme a.gridBodyLink:visited {
+		color: #707070;
+		text-decoration: none;
+	}
+
+	#defaulttheme a.gridBodyLink:hover {
+		color: #000000;
+		text-decoration: underline;
+	}
+
+	#defaulttheme .gridRow td {
+		text-decoration: none;
+		background-color: #FFFFFF;
+		height: 25px;
+		border-right: 1px solid #E6E6E8;
+		border-bottom: 1px solid #E6E6E8;
+	}
+
+	#defaulttheme .gridRowAlternate td {
+		text-decoration: none;
+		background-color: #F9FAFB;
+		height: 25px;
+		border-right: 1px solid #E6E6E8;
+		border-bottom: 1px solid #E6E6E8;
+	}
+
+	#defaulttheme .gridRowOver td {
+		font-weight: bold;
+		color: #000000;
+		text-decoration: none;
+		background-color: #DDDEE1;
+		height: 25px;
+		border-right: 1px solid #E6E6E8;
+		border-bottom: 1px solid #DDDEE1;
+	}
+
+	#defaulttheme .gridFooter {
+		text-decoration: none;
+		height: 35px;
+		width: 100%;
+		table-layout:fixed;
+	}
+
+	#defaulttheme .gridFooterBG {
+		text-decoration: none;
+		background-color: #CACBD0;
+		border-bottom: 1px solid #9F9F9F;
+	}
+
+	#defaulttheme .gridFooterLeft {
+		text-decoration: none;
+		background-color: #CECECE;
+		width: 2px;
+		border-left: 1px solid #9F9F9F;
+	}
+
+	#defaulttheme .gridFooterRight {
+		text-decoration: none;
+		background-color: #CECECE;
+		width: 2px;
+		border-right: 1px solid #9F9F9F;
+	}
+
+	#defaulttheme .gridFooterText {
+		font-size: 11px;
+		font-weight: bold;
+		color: #303030;
+		vertical-align: middle;
+	}
+
+	#defaulttheme .gridPagingText {
+		font-size: 11px;
+		color: #1A1A1A;
+		vertical-align: middle;
+	}
+
+	#defaulttheme .gridPagingSelected {
+		font-weight: bold;
+		color: #000000;
+		text-align: center;
+	}
+
+	#defaulttheme a.gridPaging:link {
+		color: #707070;
+		text-decoration: none;
+	}
+
+	#defaulttheme a.gridPaging:active {
+		color: #707070;
+		text-decoration: none;
+	}
+
+	#defaulttheme a.gridPaging:visited {
+		color: #707070;
+		text-decoration: none;
+	}
+
+	#defaulttheme a.gridPaging:hover {
+		color: #000000;
+		text-decoration: underline;
+	}
+
+	#defaulttheme .gridErrMsg {
+		font-weight: bold;
+		color: #FF0000;
+		text-align: center;
+	}
+
+	#sitemenu_defaulttheme .siteMenuGap {
+		text-decoration: none;
+		width: 5px;
+	}
+
+	#sitemenu_defaulttheme .siteMenuHeaderBG {
+		text-decoration: none;
+		background-color: #9D9FAA;
+		text-align: left;
+		height: 30px;
+		border-top: 1px solid #878992;
+		border-bottom: 1px solid #878992;
+	}
+
+	#sitemenu_defaulttheme .siteMenuHeaderBGLeft {
+		text-decoration: none;
+		background-color: #9D9FAA;
+		height: 30px;
+		width: 2px;
+		border-top: 1px solid #878992;
+		border-bottom: 1px solid #878992;
+		border-left: 1px solid #878992;
+	}
+
+	#sitemenu_defaulttheme .siteMenuHeaderBGRight {
+		text-decoration: none;
+		background-color: #9D9FAA;
+		height: 30px;
+		width: 2px;
+		border-top: 1px solid #878992;
+		border-right: 1px solid #878992;
+		border-bottom: 1px solid #878992;
+	}
+
+	#sitemenu_defaulttheme .siteMenuHeaderText {
+		font-family: Tahoma;
+		font-size: 12px;
+		font-weight: bold;
+		color: #FFFFFF;
+		vertical-align: middle;
+	}
+
+	#sitemenu_defaulttheme .siteMenuColumnBGLeft {
+		text-decoration: none;
+		background-color: #FFFFFF;
+		height: 25px;
+		border-left: 1px solid #B4B5BA;
+	}
+
+	#sitemenu_defaulttheme .siteMenuColumnBGRight {
+		text-decoration: none;
+		background-color: #FFFFFF;
+		height: 25px;
+		border-right: 1px solid #B4B5BA;
+	}
+
+	#sitemenu_defaulttheme .siteMenuBody {
+		font-family: Tahoma;
+		font-size: 11px;
+		font-weight: bold;
+		background-color: #FFFFFF;
+	}
+
+	#sitemenu_defaulttheme .siteMenu ul {
+		text-decoration: none;
+		padding: 0px;
+		margin: 0px;
+		list-style-type: none;
+	}
+
+	#sitemenu_defaulttheme .siteMenu ul li {
+		float: left;
+		width: 100%;
+		list-style-position: relative;
+		position: relative;
+	}
+
+	#sitemenu_defaulttheme .siteMenu a:link {
+		color: #707070;
+		text-decoration: none;
+		display: block;
+		height: 25px;
+		padding-left: 5px;
+	}
+
+	#sitemenu_defaulttheme .siteMenu a:active {
+		color: #707070;
+		text-decoration: none;
+		display: block;
+		height: 25px;
+		padding-left: 5px;
+	}
+
+	#sitemenu_defaulttheme .siteMenu a:visited {
+		color: #707070;
+		text-decoration: none;
+		display: block;
+		height: 25px;
+		padding-left: 5px;
+	}
+
+	#sitemenu_defaulttheme .siteMenu a:hover {
+		color: #000000;
+		text-decoration: underline;
+		height: 25px;
+		width: 100%;
+		padding-left: 5px;
+	}
+
+	#sitemenu_defaulttheme .siteMenu .siteMenuSelected {
+		font-weight: bold;
+		color: #000000;
+		text-decoration: underline;
+		display: block;
+		height: 25px;
+		width: 100%;
+		padding-left: 5px;
+	}
+
+	#sitemenu_defaulttheme .siteMenuFooter {
+		text-decoration: none;
+		background-color: #878992;
+		vertical-align: middle;
+		height: 3px;
+	}
+
+	#mainmenu_defaulttheme .mainMenuBG {
+		font-family: Tahoma;
+		font-size: 11px;
+	}
+
+	#mainmenu_defaulttheme .mainMenuLink:link {
+		font-weight: bold;
+		color: #707070;
+		text-decoration: none;
+	}
+
+	#mainmenu_defaulttheme .mainMenuLink:active {
+		font-weight: bold;
+		color: #707070;
+		text-decoration: none;
+	}
+
+	#mainmenu_defaulttheme .mainMenuLink:visited {
+		font-weight: bold;
+		color: #707070;
+		text-decoration: none;
+	}
+
+	#mainmenu_defaulttheme .mainMenuLink:hover {
+		font-weight: bold;
+		color: #000000;
+		text-decoration: underline;
+	}
+
+	#sch_defaulttheme .schHeaderBGLeft {
+		text-decoration: none;
+		background-color: #9D9FAA;
+		height: 30px;
+		width: 2px;
+		border-top: 1px solid #878992;
+		border-bottom: 1px solid #878992;
+		border-left: 1px solid #878992;
+	}
+
+	#sch_defaulttheme .schHeaderBG {
+		text-decoration: none;
+		background-color: #9D9FAA;
+		border-top: 1px solid #878992;
+		border-bottom: 1px solid #878992;
+	}
+
+	#sch_defaulttheme .schHeaderBGRight {
+		text-decoration: none;
+		background-color: #9D9FAA;
+		height: 30px;
+		width: 2px;
+		border-top: 1px solid #878992;
+		border-right: 1px solid #878992;
+		border-bottom: 1px solid #878992;
+	}
+
+	#sch_defaulttheme .schHeaderText {
+		font-family: Tahoma;
+		font-size: 12px;
+		font-weight: bold;
+		color: #FFFFFF;
+		text-decoration: none;
+	}
+
+	#sch_defaulttheme .schBody {
+		font-family: Tahoma;
+		font-size: 11px;
+		color: #333333;
+		text-decoration: none;
+		background-color: #FFFFFF;
+		height: 50px;
+		width: 100%;
+		padding-left: 5px;
+	}
+
+	#sch_defaulttheme .schColumnBGLeft {
+		text-decoration: none;
+		background-color: #FFFFFF;
+		height: 25;
+		border-left: 1px solid #B4B5BA;
+	}
+
+	#sch_defaulttheme .schColumnBGRight {
+		text-decoration: none;
+		background-color: #FFFFFF;
+		height: 25;
+		border-right: 1px solid #B4B5BA;
+	}
+
+	#sch_defaulttheme .schFooter {
+		text-decoration: none;
+		background-color: #878992;
+		vertical-align: middle;
+		height: 3px;
+	}
+
+	#defaulttheme .button ,
+	#sch_defaulttheme .button {
+		font-family: Tahoma;
+		font-size: 11px;
+		font-weight: bold;
+		color: #FFFFFF;
+		background-color: #91939D;
+		height: 22px;
+		border: 1px solid #52545C;
+	}
+
+	#defaulttheme .combobox {
+		font-family: Tahoma;
+		font-size: 12px;
+		color: #4A4A4A;
+		border: 1px solid #B4B5BA;
+	}
+
+	#defaulttheme .textbox ,
+	#sch_defaulttheme .textbox {
+		font-family: Tahoma;
+		font-size: 12px;
+		color: #4A4A4A;
+		text-decoration: none;
+		background-color: #FFFFFF;
+		height: 18px;
+		border: 1px solid #B4B5BA;
+	}
+
+	#defaulttheme .textarea {
+		font-family: Tahoma;
+		font-size: 12px;
+		color: #4A4A4A;
+		text-decoration: none;
+		background-color: #FFFFFF;
+		border: 1px solid #B4B5BA;
+	}
+
+	#defaulttheme .errMsg {
+		font-weight: bold;
+		color: #FF0000;
+		text-decoration: none;
+		display: inline;
+	}
+
+	#defaulttheme a.formLink:link {
+		font-weight: bold;
+		color: #707070;
+		text-decoration: none;
+	}
+
+	#defaulttheme a.formLink:visited {
+		font-weight: bold;
+		color: #707070;
+		text-decoration: none;
+	}
+
+	#defaulttheme a.formLink:active {
+		font-weight: bold;
+		color: #707070;
+		text-decoration: none;
+	}
+
+	#defaulttheme a.formLink:hover {
+		font-weight: bold;
+		color: #000000;
+		text-decoration: underline;
+	}
+
+	#defaulttheme .formHeaderBGLeft {
+		text-decoration: none;
+		background-color: #9D9FAA;
+		height: 30px;
+		width: 2px;
+		border-top: 1px solid #B4B5BA;
+		border-bottom: 1px solid #B4B5BA;
+		border-left: 1px solid #B4B5BA;
+	}
+
+	#defaulttheme .formHeaderBG {
+		text-decoration: none;
+		background-color: #9D9FAA;
+		text-align: left;
+		border-top: 1px solid #B4B5BA;
+		border-bottom: 1px solid #B4B5BA;
+	}
+
+	#defaulttheme .formHeaderBGRight {
+		text-decoration: none;
+		background-color: #9D9FAA;
+		height: 30;
+		width: 2px;
+		border-top: 1px solid #B4B5BA;
+		border-right: 1px solid #B4B5BA;
+		border-bottom: 1px solid #B4B5BA;
+	}
+
+	#defaulttheme .formHeaderText {
+		font-size: 12px;
+		font-weight: bold;
+		color: #FFFFFF;
+		text-decoration: none;
+	}
+
+	#defaulttheme .formBody {
+		text-decoration: none;
+		padding: 0px;
+	}
+
+	#defaulttheme .formColumnBGLeft {
+		font-weight: bold;
+		text-decoration: none;
+		background-color: #F5F5F5;
+		height: 25;
+		border-left: 1px solid #B4B5BA;
+	}
+
+	#defaulttheme .formColumnCaption {
+		font-weight: bold;
+		color: #333333;
+		text-decoration: none;
+		background-color: #F5F5F5;
+		text-align: left;
+		height: 25px;
+	}
+
+	#defaulttheme .formColumnBGRight {
+		text-decoration: none;
+		background-color: #FFFFFF;
+		height: 25px;
+		border-right: 1px solid #B4B5BA;
+	}
+
+	#defaulttheme .formColumnData {
+		text-decoration: none;
+		background-color: #FFFFFF;
+		height: 25px;
+		padding: 2px;
+	}
+
+	#defaulttheme .formFooter {
+		text-decoration: none;
+		background-color: #CACBD0;
+		height: 30px;
+		border-bottom: 1px solid #9F9F9F;
+	}
+
+	#defaulttheme .formFooterLeft {
+		text-decoration: none;
+		background-color: #CACBD0;
+		vertical-align: middle;
+		border-bottom: 1px solid #9F9F9F;
+		border-left: 1px solid #9F9F9F;
+	}
+
+	#defaulttheme .formFooterRight {
+		text-decoration: none;
+		background-color: #CACBD0;
+		border-right: 1px solid #9F9F9F;
+		border-bottom: 1px solid #9F9F9F;
+	}
+
+	#defaulttheme .groupSummaryCell {
+		color: #0040B5;
+		background-color: #F9F9F9;
+		height: 25px;
+		border-bottom: 1px solid #C0C0C0;
+	}
+
+	#defaulttheme .groupSummaryCaption {
+		font-weight: bold;
+		color: #444444;
+		background-color: #F9F9F9;
+		height: 25px;
+		border-top: 1px solid #C0C0C0;
+	}
+
+	#defaulttheme .groupCaption {
+		font-weight: bold;
+		color: #444444;
+		background-color: #D9DADF;
+		height: 25px;
+	}
+

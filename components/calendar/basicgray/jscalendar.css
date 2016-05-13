@@ -1,0 +1,159 @@
+#calendarDiv{
+	position:absolute;
+	width:250px;
+	border:1px solid #cccccc;
+	padding:1px;
+	background-color: #FFFFFF;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	padding-bottom:20px;
+	visibility:hidden;
+}
+
+#calendarDiv span,#calendarDiv img{
+	float:left;
+}
+
+#calendarDiv .selectBox,#calendarDiv .selectBoxOver{	
+	line-height:12px;
+	padding:1px;
+	padding-left:2px;
+	cursor:pointer;	
+}
+
+#calendarDiv .selectBoxTime, #calendarDiv .selectBoxTimeOver{	
+	line-height:12px;
+	padding:1px;
+	cursor:pointer;
+	padding-left:2px;
+}
+
+#calendarDiv td{
+	padding:3px;
+	margin:0px;
+	font-size:11px;
+	color:#333333;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+}
+
+
+/* color of select box on top bar*/
+#calendarDiv .selectBox{
+	background-color:#FFFFFF;
+	border:1px solid #cccccc;		
+	color: #333333;
+	position:relative;	
+}
+#calendarDiv .selectBoxOver{
+	border:1px solid #666666;
+	background-color: #F5F5F5;
+	color: #333333;
+	position:relative;
+}
+#calendarDiv .selectBoxTime{
+	background-color:#FFFFFF;
+	border:1px solid #cccccc;		
+	color: #333333;
+	position:relative;
+}
+#calendarDiv .selectBoxTimeOver{
+	border:1px solid #666666;
+	background-color: #F5F5F5;
+	color: #333333;
+	position:relative;
+}
+
+/*set width of top bar*/
+#calendarDiv .topBar{
+	height:18px;
+	padding:1px;
+	background-color: #9d9fab;
+}
+
+#calendarDiv .calendar_day_header{
+	background-color: #d9dae1;
+}
+
+/* Active day in the calendar */
+#calendarDiv .activeDay{	
+	color:#FF6600;
+	font-weight:bold;
+	text-decoration:underline;
+}
+/* Buttom Bar */
+#calendarDiv .todaysDate{
+	height:18px;
+	line-height:17px;
+	padding:1px;
+	text-align:center;
+	position:absolute;
+	bottom:0px;
+	width:247px;
+	background-color: #9d9fab;
+	color: #FFFFFF;
+}
+
+#calendarDiv .todaysDate div{
+	float:left;
+}
+	
+#calendarDiv .timeBar{
+	height:17px;
+	line-height:17px;
+	background-color: #E8E8E8;
+	width:72px;
+	color:#333333;
+	position:absolute;
+	right:0px;
+}
+
+#calendarDiv .timeBar div{
+	float:left;
+	margin-right:1px;
+}
+
+#calendarDiv .monthYearPicker{
+	background-color: #f9f9f9;	
+	border:1px solid #cccccc;
+	position: absolute;
+	color: #333333;
+	left:0px;
+	top:15px;
+	z-index:1000;
+	display:none;
+}
+
+#calendarDiv #monthSelect{
+	width:90px;
+}
+
+#calendarDiv #yearSelect{
+	width:48px;
+}
+
+#calendarDiv .monthYearPicker div{
+	float:none;
+	clear:both;	
+	padding:1px;
+	margin:1px;	
+	cursor:pointer;
+}
+
+#calendarDiv .monthYearActive{
+	background-color:#9d9fab;
+	color: #FFFFFF;
+}
+
+/* Position of Topbar */
+#calendarDiv td{
+	text-align:right;
+	cursor:pointer;
+}
+
+#calendarDiv .topBar img{
+	cursor:pointer;
+}
+#calendarDiv .topBar div{
+	float:left;	
+	margin-right:1px;	
+}

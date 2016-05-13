@@ -1,0 +1,570 @@
+#defaulttheme {
+ margin: 0px;
+ padding: 0px;
+}
+	#defaulttheme table {
+		font-family: Verdana;
+		font-size: 11px;
+		color: #333333;
+	}
+
+	#defaulttheme .gridTable {
+		border-collapse:collapse;
+	}
+
+	#defaulttheme .gridHeader {
+		width: 100%;
+		border: 1px solid #1c9de5;
+		table-layout:fixed;
+	}
+
+	#defaulttheme .gridHeaderBG {
+		background-color: #64baea;
+		height: 30px;
+	}
+
+	#defaulttheme .gridHeaderBGLeft {
+		background-color: #64baea;
+		width: 2px;
+	}
+
+	#defaulttheme .gridHeaderBGRight {
+		background-color: #64baea;
+		width: 2px;
+	}
+
+	#defaulttheme .gridHeaderText {
+		font-family: Verdana;
+		font-size: 11px;
+		font-weight: bold;
+		color: #FFFFFF;
+		text-decoration: none;
+	}
+
+	#defaulttheme .gridToolBar {
+		font-size: 12px;
+		text-decoration: none;
+		background-color: #EEEEEE;
+		height: 25px;
+		width: 100%;
+		padding-right: 2px;
+		padding-left: 2px;
+		border-right: 1px solid #E1E1E1;
+		border-left: 1px solid #E1E1E1;
+	}
+
+	#defaulttheme .gridToolBarText {
+		font-size: 11px;
+		font-weight: bold;
+		color: #333333;
+		text-decoration: none;
+	}
+
+	#defaulttheme a.gridToolBarLink:link {
+		font-size: 11px;
+		font-weight: bold;
+		color: #333333;
+		text-decoration: none;
+	}
+
+	#defaulttheme a.gridToolBarLink:active {
+		font-size: 11px;
+		font-weight: bold;
+		color: #333333;
+		text-decoration: none;
+	}
+
+	#defaulttheme a.gridToolBarLink:visited {
+		font-size: 11px;
+		font-weight: bold;
+		color: #333333;
+		text-decoration: none;
+	}
+
+	#defaulttheme a.gridToolBarLink:hover {
+		font-size: 11px;
+		font-weight: bold;
+		color: #FF8800;
+		text-decoration: none;
+	}
+
+	#defaulttheme .gridMain {
+		width: 100%;
+		border-right: 1px solid #E1E1E1;
+		border-left: 1px solid #E1E1E1;
+	}
+
+	#defaulttheme .gridColumn {
+		background-color: #E1E1E1;
+		text-align: center;
+		height: 25px;
+	}
+
+	#defaulttheme .gridColumnText {
+		font-family: Verdana;
+		font-size: 11px;
+		font-weight: bold;
+		color: #333333;
+		text-decoration: none;
+	}
+
+	#defaulttheme a.gridColumnLink:link {
+		font-family: Verdana;
+		font-size: 11px;
+		color: #333333;
+		text-decoration: none;
+	}
+
+	#defaulttheme a.gridColumnLink:active {
+		font-family: Verdana;
+		font-size: 11px;
+		color: #333333;
+		text-decoration: none;
+	}
+
+	#defaulttheme a.gridColumnLink:visited {
+		font-family: Verdana;
+		font-size: 11px;
+		color: #333333;
+		text-decoration: none;
+	}
+
+	#defaulttheme a.gridColumnLink:hover {
+		font-family: Verdana;
+		font-size: 11px;
+		color: #FF8800;
+		text-decoration: none;
+	}
+
+	#defaulttheme a.gridBodyLink:link {
+		font-family: Verdana;
+		font-size: 11px;
+		color: #333333;
+		text-decoration: none;
+	}
+
+	#defaulttheme a.gridBodyLink:active {
+		font-family: Verdana;
+		font-size: 11px;
+		font-weight: bold;
+		color: #333333;
+		text-decoration: none;
+	}
+
+	#defaulttheme a.gridBodyLink:visited {
+		font-family: Verdana;
+		font-size: 11px;
+		color: #333333;
+		text-decoration: none;
+	}
+
+	#defaulttheme a.gridBodyLink:hover {
+		font-family: Verdana;
+		font-size: 11px;
+		color: #FF8800;
+	}
+
+	#defaulttheme .gridRow td {
+		height: 24px;
+		border-bottom: 1px dotted #E1E1E1;
+	}
+
+	#defaulttheme .gridRowAlternate td {
+		background-color: #F3F3F3;
+		height: 24px;
+		border-bottom: 1px dashed #B8E2DA;
+	}
+
+	#defaulttheme .gridRowOver td {
+		font-weight: bold;
+		background-color: #D1F2EC;
+		height: 24px;
+		border-bottom: 1px dashed #B8E2DA;
+	}
+
+	#defaulttheme .gridFooter {
+		width: 100%;
+		border-right: 1px solid #79C9B9;
+		border-bottom: 1px solid #79C9B9;
+		border-left: 1px solid #79C9B9;
+		table-layout:fixed;
+	}
+
+	#defaulttheme .gridFooterBG {
+		background-color: #8FC2B8;
+		height: 30px;
+	}
+
+	#defaulttheme .gridFooterLeft {
+		background-color: #8FC2B8;
+		height: autopx;
+		width: 2px;
+	}
+
+	#defaulttheme .gridFooterRight {
+		background-color: #8FC2B8;
+		height: 30px;
+		width: 2px;
+	}
+
+	#defaulttheme .gridPagingSelected {
+		font-weight: bold;
+	}
+
+	#defaulttheme a.gridPaging:link {
+		color: #333333;
+		text-decoration: none;
+	}
+
+	#defaulttheme a.gridPaging:active {
+		color: #333333;
+		text-decoration: none;
+	}
+
+	#defaulttheme a.gridPaging:visited {
+		color: #333333;
+		text-decoration: none;
+	}
+
+	#defaulttheme a.gridPaging:hover {
+		color: #FF8800;
+		text-decoration: none;
+	}
+
+	#defaulttheme .gridErrMsg {
+		font-weight: bold;
+		color: #E60415;
+		text-align: left;
+	}
+
+	#sitemenu_defaulttheme .siteMenuHeaderBG {
+		background-color: #64baea;
+		text-align: left;
+		height: 30px;
+		border-top: 1px solid #1c9de5;
+		border-bottom: 1px solid #1c9de5;
+	}
+
+	#sitemenu_defaulttheme .siteMenuHeaderBGLeft {
+		background-color: #64baea;
+		width: 2px;
+		border-left: 1px solid #1c9de5;
+	}
+
+	#sitemenu_defaulttheme .siteMenuHeaderBGRight {
+		background-color: #64baea;
+		width: 2px;
+		border-right: 1px solid #1c9de5;
+	}
+
+	#sitemenu_defaulttheme .siteMenuHeaderText {
+		font-family: Verdana;
+		font-size: 11px;
+		font-weight: bold;
+		color: #FFFFFF;
+	}
+
+	#sitemenu_defaulttheme .siteMenuColumnBGLeft {
+		border-left: 1px solid #E1E1E1;
+	}
+
+	#sitemenu_defaulttheme .siteMenuColumnBGRight {
+		border-right: 1px solid #E1E1E1;
+	}
+
+	#sitemenu_defaulttheme .siteMenu ul {
+		padding: 1px;
+		margin: 1px;
+		list-style-type: none;
+	}
+
+	#sitemenu_defaulttheme .siteMenu ul li {
+		float: left;
+		height: 25px;
+		width: 100%;
+		list-style-position: relative;
+	}
+
+	#sitemenu_defaulttheme .siteMenu a:link {
+		font-family: Verdana;
+		font-size: 11px;
+		color: #1c9de5;
+        font-weight: bold;
+		
+		text-decoration: none;
+		height: 25px;
+		padding-left: 5px;
+	}
+
+	#sitemenu_defaulttheme .siteMenu a:active {
+		font-family: Verdana;
+		font-size: 11px;
+		color: #1c9de5;
+		text-decoration: none;
+		height: 25px;
+		padding-left: 5px;
+	}
+
+	#sitemenu_defaulttheme .siteMenu a:visited {
+		font-family: Verdana;
+		font-size: 11px;
+		/*color: #333333;*/
+        color: #1c9de5;
+		text-decoration: none;
+		height: 25px;
+		padding-left: 5px;
+	}
+
+	#sitemenu_defaulttheme .siteMenu a:hover {
+		font-family: Verdana;
+		font-size: 11px;
+		color: #FF8800;
+		text-decoration: none;
+		height: 25px;
+		width: 100%;
+		padding-left: 5px;
+	}
+
+	#sitemenu_defaulttheme .siteMenu .siteMenuSelected {
+		font-family: Verdana;
+		font-size: 11px;
+		font-weight: bold;
+		color: #1c9de5;
+		height: 25px;
+		width: 100%;
+		padding-left: 5px;
+	}
+
+	#sitemenu_defaulttheme .siteMenuFooter {
+		background-color: #8FC2B8;
+		height: 5px;
+	}
+
+	#mainmenu_defaulttheme .mainMenuBG {
+		font-family: Verdana;
+		font-size: 11px;
+        color: #1c9de5;
+	}
+
+	#mainmenu_defaulttheme .mainMenuText {
+		font-family: Verdana;
+		font-size: 11px;
+		font-weight: bold;
+		color: #333333;
+		text-decoration: none;
+	}
+
+	#mainmenu_defaulttheme .mainMenuLink:link {
+		font-weight: bold;
+		color: #333333;
+		text-decoration: none;
+	}
+
+	#mainmenu_defaulttheme .mainMenuLink:active {
+		font-weight: bold;
+		color: #333333;
+		text-decoration: none;
+	}
+
+	#mainmenu_defaulttheme .mainMenuLink:visited {
+		font-weight: bold;
+		color: #333333;
+		text-decoration: none;
+	}
+
+	#mainmenu_defaulttheme .mainMenuLink:hover {
+		font-weight: bold;
+		color: #FF8800;
+		text-decoration: none;
+	}
+
+	#sch_defaulttheme .schHeaderBGLeft {
+		background-color: #64baea;
+		width: 2px;
+		border-left: 1px solid #1c9de5;
+	}
+
+	#sch_defaulttheme .schHeaderBG {
+		background-color: #64baea;
+		height: 30px;
+		border-top: 1px solid #1c9de5;
+		border-bottom: 1px solid #1c9de5;
+	}
+
+	#sch_defaulttheme .schHeaderBGRight {
+		background-color: #64baea;
+		width: 2px;
+		border-right: 1px solid #1c9de5;
+	}
+
+	#sch_defaulttheme .schHeaderText {
+		font-family: Verdana;
+		font-size: 11px;
+		font-weight: bold;
+		color: #FFFFFF;
+	}
+
+	#sch_defaulttheme .schBody {
+		font-family: Verdana;
+		font-size: 11px;
+		color: #333333;
+		height: 40px;
+	}
+
+	#sch_defaulttheme .schColumnBGLeft {
+		border-left: 1px solid #CCCCCC;
+	}
+
+	#sch_defaulttheme .schColumnBGRight {
+		border-right: 1px solid #CCCCCC;
+	}
+
+	#sch_defaulttheme .schFooter {
+		background-color: #8FC2B8;
+		height: 3px;
+	}
+
+	#defaulttheme .button ,
+	#sch_defaulttheme .button {
+		font-family: Verdana;
+		font-size: 11px;
+		font-weight: bold;
+		color: #FFFFFF;
+		text-decoration: none;
+		background-color: #64baea;
+		height: 23px;
+		border: 1px solid #1c9de5;
+	}
+
+	#defaulttheme .combobox {
+		font-size: 11px;
+		color: #333333;
+		border: 1px solid #7DC4B6;
+	}
+
+	#defaulttheme .textbox ,
+	#sch_defaulttheme .textbox {
+		font-family: Verdana;
+		font-size: 11px;
+		color: #333333;
+		height: 18px;
+		border: 1px solid #7DC4B6;
+	}
+
+	#defaulttheme .textarea {
+		font-family: Verdana;
+		font-size: 11px;
+		color: #333333;
+		border: 1px solid #7DC4B6;
+	}
+
+	#defaulttheme .errMsg {
+		font-weight: bold;
+		color: #DA0515;
+	}
+
+	#defaulttheme a.formLink:link {
+		font-weight: bold;
+		color: #333333;
+		text-decoration: none;
+	}
+
+	#defaulttheme a.formLink:visited {
+		font-weight: bold;
+		color: #333333;
+		text-decoration: none;
+	}
+
+	#defaulttheme a.formLink:active {
+		font-weight: bold;
+		color: #333333;
+		text-decoration: none;
+	}
+
+	#defaulttheme a.formLink:hover {
+		font-weight: bold;
+		color: #FF8800;
+		text-decoration: none;
+	}
+
+	#defaulttheme .formHeaderBGLeft {
+		background-color: #1c9de5;
+		width: 2px;
+		border-left: 1px solid #95cae7;
+        
+	}
+
+	#defaulttheme .formHeaderBG {
+		font-family: Verdana;
+		font-size: 11px;
+		font-weight: bold;
+		color: #FFFFFF;
+		background-color: #1c9de5;;
+		text-align: left;
+		height: 30px;
+		border-top: 1px solid #95cae7;
+		border-bottom: 1px solid #95cae7;
+	}
+
+	#defaulttheme .formHeaderBGRight {
+		background-color: #64baea;
+		width: 2px;
+		border-right: 1px solid #95cae7;
+	}
+
+	#defaulttheme .formColumnBGLeft {
+		background-color: #EEEEEE;
+		border-left: 1px solid #E1E1E1;
+	}
+
+	#defaulttheme .formColumnCaption {
+		background-color: #EEEEEE;
+		text-align: left;
+	}
+
+	#defaulttheme .formColumnBGRight {
+		border-right: 1px solid #E1E1E1;
+	}
+
+	#defaulttheme .formColumnData {
+		height: 28px;
+		border-bottom: 1px dashed #E2E2E2;
+	}
+
+	#defaulttheme .formFooter {
+		background-color: #8FC2B8;
+		height: 5px;
+	}
+
+	#defaulttheme .formFooterLeft {
+		background-color: #8FC2B8;
+		width: 2px;
+	}
+
+	#defaulttheme .formFooterRight {
+		background-color: #8FC2B8;
+		width: 2px;
+	}
+
+	#defaulttheme .groupSummaryCell {
+		color: #FF5401;
+		background-color: #F5FEFC;
+		height: 25px;
+		border-bottom: 2px solid #ABDCD3;
+	}
+
+	#defaulttheme .groupSummaryCaption {
+		font-weight: bold;
+		color: #4A4A4A;
+		background-color: #F5FEFC;
+		height: 25px;
+		border-top: 2px solid #ABDCD3;
+	}
+
+	#defaulttheme .groupCaption {
+		font-weight: bold;
+		color: #408080;
+		background-color: #C1DDD8;
+		height: 25px;
+	}
+

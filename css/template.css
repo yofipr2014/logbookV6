@@ -1,0 +1,262 @@
+/* Depkes CSS Document */
+
+html, body {
+	margin: 0;
+	padding: 0;
+	background: #EDF6FF url(../images/head.jpg) top repeat-x;
+	font: 11px Tahoma, Arial, "Trebuchet MS";
+	color: #3C3836;
+}
+A {
+	text-decoration: underline;
+	color: #FF7E00;
+	}
+A:hover {
+	text-decoration: none;
+	color: #4C9CE7;
+}
+.tabsubnav {
+	background-image: url(../images/tabdata02bg.gif);
+	background-repeat: repeat-x;
+	color: #3A3835;
+	vertical-align: top;
+}
+.tabsubnav A {
+	text-decoration: none;
+	color: #3A3835;
+}
+.tabsubnav A:hover {
+	text-decoration: underline;
+	color: #346699;
+}
+#pagehandler {
+	margin: 0 auto;
+	width: 960px;
+}
+.handler {
+	width: 920px;
+   	height: 200px;
+   	overflow: auto;
+}
+.clear {
+	clear: both;
+}
+
+.logo {
+	margin: 0 5px 0 0;
+	height: 85px;
+	float: right;
+}
+
+.navpost {
+	height: 26px;
+	padding: 63px 0 20px 0;
+}
+	/* Control Top Navigation */
+	#navigate {
+		height: 26px;
+		margin: 0;
+		padding: 0 0 0 40px;
+	}
+	#navigate ul {
+		margin: 0;
+		padding: 5px 0 0 15px;
+		list-style: none;
+	}
+	#navigate li {
+		float: left;
+		background: url(../images/nav_left.gif) no-repeat left top;
+		margin: 7px 0 0 4px;
+		padding: 0 0 0 5px;
+	}
+	#navigate a {
+		display: block;
+		background: url(../images/nav_right_2.gif) no-repeat right top;
+		padding: 5px 10px 8px 5px;
+		color: #3A3835;
+		font-weight: bold;
+		text-decoration: none;
+	}
+	#navigate a:hover {
+		color: #F0FAFC;
+	}
+	#navigate .current {
+		float: left;
+		background: url(../images/navcurrent_left.gif) no-repeat left top;
+	}
+	#navigate span {
+		display: block;
+		background: url(../images/navcurrent_right.gif) no-repeat right top;
+		padding: 5px 10px 8px 5px;
+		color: #B64212;
+		font-weight: bold;
+		text-decoration: none;
+	}
+
+.matrix{
+	height: 414px;
+}
+
+.float1 {
+	float: left;
+	width:50%;
+	padding: 0 0px 0px 0;
+}
+.float {
+	border: 1px solid #CDCECE;
+	width:455px;
+	height: 414px;
+	float: left;
+	padding: 0 0px 0px 0;
+}
+
+.divbox {
+	float: left;
+	text-align: center;
+	font-size: 1em;
+	padding-top: 6px;
+	font-weight: bold;
+	border: 0px solid #CDCECE;
+	width: 16.6%;
+	height: 20px;
+	z-index: 10;
+}
+
+.tname {
+	float: left;
+	width:20%;
+	padding: 0 0px 5px 0;
+}
+.tamp {
+	float: left;
+	width:5%;
+	padding: 0 0px 5px 0;
+}
+.tval {
+	float: left;
+	width:75%;
+	padding: 0 0px 5px 0;
+}
+
+.margtop {
+	margin: 15px 0 0;
+}
+.rbox01 {
+	background: url(../images/top_box.gif) top no-repeat;
+	height: 15px;
+}
+.rbox02 {
+	background: url(../images/side_box.gif) repeat-y;
+	padding: 0 20px 0 20px;
+	line-height: 16px;
+	letter-spacing: 0.05em;
+}
+	.rbox02 p {
+		margin: 0 0 10px 0;
+		padding: 0;
+	}
+	.rbox02 form {
+		margin: 0;
+		padding: 0;
+	}
+
+	/* Table Content Handler */
+	.tabholder_a {
+		background: #4A4846;
+		/*border: 1px solid #D4D7D9;*/
+	}
+	.tabholder {
+		width: 100%;
+		background: #4A4846;
+		/*border: 1px solid #D4D7D9;*/
+	}
+		.tabholder2 {
+			width: 100%;
+			/*border: 1px solid #D4D7D9;*/
+		}
+	.tabhead {
+		background: url(../images/tab_head.gif) repeat-x;
+		font-weight: bold;
+		color: #FEFEFE;
+	}
+	.tabhead1 {
+		background: url(../images/tab_head1.gif) repeat-x;
+		font-weight: bold;
+		color: #FEFEFE;
+	}
+	.tabcont {
+		background: #FFF;
+	}
+		.tabcont1 {
+			background: #EEE;
+		}
+		.tabcont2 {
+			background: #FFF;
+		}
+	.tabtxt {
+		padding: 3px 0 3px 8px;
+	}
+	.tabtxt1 {
+		padding: 0 3px 0 8px;
+	}
+		.tabtxt A {
+			text-decoration: none;
+		}
+		.tabtxt A:hover {
+			text-decoration: underline;
+		}
+
+.rbox03 {
+	background: url(../images/bottom_box.gif) bottom no-repeat;
+	height: 15px;
+}
+
+	/* Form Handler */
+	.tfield {
+		background: #FFF;
+		width: 120px;
+		font-family: Tahoma, Arial, "Trebuchet MS";
+		font-size: 11px;
+		font-weight: normal;
+		color: #346699;
+		padding: 2px 3px 2px 3px;
+		border: 1px solid #7F9DB9;
+	}
+	.tfield_a {
+		background: #FFF;
+		font-family: Tahoma, Arial, "Trebuchet MS";
+		font-size: 11px;
+		font-weight: normal;
+		color: #346699;
+		padding: 2px 3px 2px 3px;
+		border: 1px solid #7F9DB9;
+	}
+	.tfield_b {
+		background: #FFF;
+		font-family: Tahoma, Arial, "Trebuchet MS";
+		font-size: 11px;
+		font-weight: normal;
+		color: #000;
+		padding: 2px 3px 2px 3px;
+		border: 1px solid #7F9DB9;
+	}
+	.selectbox {
+		width: 120px;
+		font-family: Tahoma, Arial, "Trebuchet MS";
+		font-size: 11px;
+		color: #4B5760;
+		border: 1px solid #7F9DB9;
+	}
+
+#footer {
+	height: 45px;
+	text-align: center;
+	padding: 15px 0 0;
+	font-size: 10px;
+	color: #346699;
+}
+
+/* hide these from IE */
+html>body #navigate {
+	margin: 0 0 30px 0;
+}

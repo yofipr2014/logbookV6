@@ -1,0 +1,565 @@
+#logbook_add_th {
+ margin: 0px;
+ padding: 0px;
+}
+	#logbook_add_th table {
+		font-family: Verdana;
+		font-size: 11px;
+		color: #333333;
+	}
+
+	#logbook_add_th .gridTable {
+		border-collapse:collapse;
+	}
+
+	#logbook_add_th .gridHeader {
+		width: 100%;
+		border: 1px solid #1C8E78;
+		table-layout:fixed;
+	}
+
+	#logbook_add_th .gridHeaderBG {
+		background-color: #64baea;
+		height: 30px;
+	}
+
+	#logbook_add_th .gridHeaderBGLeft {
+		background-color: #64baea;
+		width: 2px;
+	}
+
+	#logbook_add_th .gridHeaderBGRight {
+		background-color: #64baea;
+		width: 2px;
+	}
+
+	#logbook_add_th .gridHeaderText {
+		font-family: Verdana;
+		font-size: 11px;
+		font-weight: bold;
+		color: #FFFFFF;
+		text-decoration: none;
+	}
+
+	#logbook_add_th .gridToolBar {
+		font-size: 12px;
+		text-decoration: none;
+		background-color: #EEEEEE;
+		height: 25px;
+		width: 100%;
+		padding-right: 2px;
+		padding-left: 2px;
+		border-right: 1px solid #E1E1E1;
+		border-left: 1px solid #E1E1E1;
+	}
+
+	#logbook_add_th .gridToolBarText {
+		font-size: 11px;
+		font-weight: bold;
+		color: #333333;
+		text-decoration: none;
+	}
+
+	#logbook_add_th a.gridToolBarLink:link {
+		font-size: 11px;
+		font-weight: bold;
+		color: #333333;
+		text-decoration: none;
+	}
+
+	#logbook_add_th a.gridToolBarLink:active {
+		font-size: 11px;
+		font-weight: bold;
+		color: #333333;
+		text-decoration: none;
+	}
+
+	#logbook_add_th a.gridToolBarLink:visited {
+		font-size: 11px;
+		font-weight: bold;
+		color: #333333;
+		text-decoration: none;
+	}
+
+	#logbook_add_th a.gridToolBarLink:hover {
+		font-size: 11px;
+		font-weight: bold;
+		color: #FF8800;
+		text-decoration: none;
+	}
+
+	#logbook_add_th .gridMain {
+		width: 100%;
+		border-right: 1px solid #E1E1E1;
+		border-left: 1px solid #E1E1E1;
+	}
+
+	#logbook_add_th .gridColumn {
+		background-color: #E1E1E1;
+		text-align: center;
+		height: 25px;
+	}
+
+	#logbook_add_th .gridColumnText {
+		font-family: Verdana;
+		font-size: 11px;
+		font-weight: bold;
+		color: #333333;
+		text-decoration: none;
+	}
+
+	#logbook_add_th a.gridColumnLink:link {
+		font-family: Verdana;
+		font-size: 11px;
+		color: #333333;
+		text-decoration: none;
+	}
+
+	#logbook_add_th a.gridColumnLink:active {
+		font-family: Verdana;
+		font-size: 11px;
+		color: #333333;
+		text-decoration: none;
+	}
+
+	#logbook_add_th a.gridColumnLink:visited {
+		font-family: Verdana;
+		font-size: 11px;
+		color: #333333;
+		text-decoration: none;
+	}
+
+	#logbook_add_th a.gridColumnLink:hover {
+		font-family: Verdana;
+		font-size: 11px;
+		color: #FF8800;
+		text-decoration: none;
+	}
+
+	#logbook_add_th a.gridBodyLink:link {
+		font-family: Verdana;
+		font-size: 11px;
+		color: #333333;
+		text-decoration: none;
+	}
+
+	#logbook_add_th a.gridBodyLink:active {
+		font-family: Verdana;
+		font-size: 11px;
+		font-weight: bold;
+		color: #333333;
+		text-decoration: none;
+	}
+
+	#logbook_add_th a.gridBodyLink:visited {
+		font-family: Verdana;
+		font-size: 11px;
+		color: #333333;
+		text-decoration: none;
+	}
+
+	#logbook_add_th a.gridBodyLink:hover {
+		font-family: Verdana;
+		font-size: 11px;
+		color: #FF8800;
+	}
+
+	#logbook_add_th .gridRow td {
+		height: 24px;
+		border-bottom: 1px dotted #E1E1E1;
+	}
+
+	#logbook_add_th .gridRowAlternate td {
+		background-color: #F3F3F3;
+		height: 24px;
+		border-bottom: 1px dashed #B8E2DA;
+	}
+
+	#logbook_add_th .gridRowOver td {
+		font-weight: bold;
+		background-color: #D1F2EC;
+		height: 24px;
+		border-bottom: 1px dashed #B8E2DA;
+	}
+
+	#logbook_add_th .gridFooter {
+		width: 100%;
+		border-right: 1px solid #79C9B9;
+		border-bottom: 1px solid #79C9B9;
+		border-left: 1px solid #79C9B9;
+		table-layout:fixed;
+	}
+
+	#logbook_add_th .gridFooterBG {
+		background-color: #8FC2B8;
+		height: 30px;
+	}
+
+	#logbook_add_th .gridFooterLeft {
+		background-color: #8FC2B8;
+		height: autopx;
+		width: 2px;
+	}
+
+	#logbook_add_th .gridFooterRight {
+		background-color: #8FC2B8;
+		height: 30px;
+		width: 2px;
+	}
+
+	#logbook_add_th .gridPagingSelected {
+		font-weight: bold;
+	}
+
+	#logbook_add_th a.gridPaging:link {
+		color: #333333;
+		text-decoration: none;
+	}
+
+	#logbook_add_th a.gridPaging:active {
+		color: #333333;
+		text-decoration: none;
+	}
+
+	#logbook_add_th a.gridPaging:visited {
+		color: #333333;
+		text-decoration: none;
+	}
+
+	#logbook_add_th a.gridPaging:hover {
+		color: #FF8800;
+		text-decoration: none;
+	}
+
+	#logbook_add_th .gridErrMsg {
+		font-weight: bold;
+		color: #E60415;
+		text-align: left;
+	}
+
+	#sitemenu_logbook_add_th .siteMenuHeaderBG {
+		background-color: #64baea;
+		text-align: left;
+		height: 30px;
+		border-top: 1px solid #1c9de5;
+		border-bottom: 1px solid #1c9de5;
+	}
+
+	#sitemenu_logbook_add_th .siteMenuHeaderBGLeft {
+		background-color: #64baea;
+		width: 2px;
+		border-left: 1px solid #1c9de5;
+	}
+
+	#sitemenu_logbook_add_th .siteMenuHeaderBGRight {
+		background-color: #64baea;
+		width: 2px;
+		border-right: 1px solid #1c9de5;
+	}
+
+	#sitemenu_logbook_add_th .siteMenuHeaderText {
+		font-family: Verdana;
+		font-size: 11px;
+		font-weight: bold;
+		color: #FFFFFF;
+	}
+
+	#sitemenu_logbook_add_th .siteMenuColumnBGLeft {
+		border-left: 1px solid #E1E1E1;
+	}
+
+	#sitemenu_logbook_add_th .siteMenuColumnBGRight {
+		border-right: 1px solid #E1E1E1;
+	}
+
+	#sitemenu_logbook_add_th .siteMenu ul {
+		padding: 1px;
+		margin: 1px;
+		list-style-type: none;
+	}
+
+	#sitemenu_logbook_add_th .siteMenu ul li {
+		float: left;
+		height: 25px;
+		width: 100%;
+		list-style-position: relative;
+	}
+
+	#sitemenu_logbook_add_th .siteMenu a:link {
+		font-family: Verdana;
+		font-size: 11px;
+		color: #333333;
+		text-decoration: none;
+		height: 25px;
+		padding-left: 5px;
+	}
+
+	#sitemenu_logbook_add_th .siteMenu a:active {
+		font-family: Verdana;
+		font-size: 11px;
+		color: #333333;
+		text-decoration: none;
+		height: 25px;
+		padding-left: 5px;
+	}
+
+	#sitemenu_logbook_add_th .siteMenu a:visited {
+		font-family: Verdana;
+		font-size: 11px;
+		color: #333333;
+		text-decoration: none;
+		height: 25px;
+		padding-left: 5px;
+	}
+
+	#sitemenu_logbook_add_th .siteMenu a:hover {
+		font-family: Verdana;
+		font-size: 11px;
+		color: #FF8800;
+		text-decoration: none;
+		height: 25px;
+		width: 100%;
+		padding-left: 5px;
+	}
+
+	#sitemenu_logbook_add_th .siteMenu .siteMenuSelected {
+		font-family: Verdana;
+		font-size: 11px;
+		font-weight: bold;
+		color: #1C8E78;
+		height: 25px;
+		width: 100%;
+		padding-left: 5px;
+	}
+
+	#sitemenu_logbook_add_th .siteMenuFooter {
+		background-color: #8FC2B8;
+		height: 5px;
+	}
+
+	#mainmenu_logbook_add_th .mainMenuBG {
+		font-family: Verdana;
+		font-size: 11px;
+	}
+
+	#mainmenu_logbook_add_th .mainMenuText {
+		font-family: Verdana;
+		font-size: 11px;
+		font-weight: bold;
+		color: #333333;
+		text-decoration: none;
+	}
+
+	#mainmenu_logbook_add_th .mainMenuLink:link {
+		font-weight: bold;
+		color: #333333;
+		text-decoration: none;
+	}
+
+	#mainmenu_logbook_add_th .mainMenuLink:active {
+		font-weight: bold;
+		color: #333333;
+		text-decoration: none;
+	}
+
+	#mainmenu_logbook_add_th .mainMenuLink:visited {
+		font-weight: bold;
+		color: #333333;
+		text-decoration: none;
+	}
+
+	#mainmenu_logbook_add_th .mainMenuLink:hover {
+		font-weight: bold;
+		color: #FF8800;
+		text-decoration: none;
+	}
+
+	#sch_logbook_add_th .schHeaderBGLeft {
+		background-color: #4BA594;
+		width: 2px;
+		border-left: 1px solid #1C8E78;
+	}
+
+	#sch_logbook_add_th .schHeaderBG {
+		background-color: #4BA594;
+		height: 30px;
+		border-top: 1px solid #1C8E78;
+		border-bottom: 1px solid #1C8E78;
+	}
+
+	#sch_logbook_add_th .schHeaderBGRight {
+		background-color: #4BA594;
+		width: 2px;
+		border-right: 1px solid #1C8E78;
+	}
+
+	#sch_logbook_add_th .schHeaderText {
+		font-family: Verdana;
+		font-size: 11px;
+		font-weight: bold;
+		color: #FFFFFF;
+	}
+
+	#sch_logbook_add_th .schBody {
+		font-family: Verdana;
+		font-size: 11px;
+		color: #333333;
+		height: 40px;
+	}
+
+	#sch_logbook_add_th .schColumnBGLeft {
+		border-left: 1px solid #CCCCCC;
+	}
+
+	#sch_logbook_add_th .schColumnBGRight {
+		border-right: 1px solid #CCCCCC;
+	}
+
+	#sch_logbook_add_th .schFooter {
+		background-color: #8FC2B8;
+		height: 3px;
+	}
+
+	#logbook_add_th .button ,
+	#sch_logbook_add_th .button {
+		font-family: Verdana;
+		font-size: 11px;
+		font-weight: bold;
+		color: #FFFFFF;
+		text-decoration: none;
+		background-color: #1c9de5;
+		height: 23px;
+		border: 1px solid #64baea;
+	}
+
+	#logbook_add_th .combobox {
+		font-size: 11px;
+		color: #333333;
+		border: 1px solid #7DC4B6;
+	}
+
+	#logbook_add_th .textbox ,
+	#sch_logbook_add_th .textbox {
+		font-family: Verdana;
+		font-size: 11px;
+		color: #333333;
+		height: 18px;
+		border: 1px solid #7DC4B6;
+	}
+
+	#logbook_add_th .textarea {
+		font-family: Verdana;
+		font-size: 11px;
+		color: #333333;
+		border: 1px solid #7DC4B6;
+	}
+
+	#logbook_add_th .errMsg {
+		font-weight: bold;
+		color: #DA0515;
+	}
+
+	#logbook_add_th a.formLink:link {
+		font-weight: bold;
+		color: #333333;
+		text-decoration: none;
+	}
+
+	#logbook_add_th a.formLink:visited {
+		font-weight: bold;
+		color: #333333;
+		text-decoration: none;
+	}
+
+	#logbook_add_th a.formLink:active {
+		font-weight: bold;
+		color: #333333;
+		text-decoration: none;
+	}
+
+	#logbook_add_th a.formLink:hover {
+		font-weight: bold;
+		color: #FF8800;
+		text-decoration: none;
+	}
+
+	#logbook_add_th .formHeaderBGLeft {
+		background-color: #64baea;
+		width: 2px;
+		border-left: 1px solid #95cae7;
+	}
+
+	#logbook_add_th .formHeaderBG {
+		font-family: Verdana;
+		font-size: 11px;
+		font-weight: bold;
+		color: #FFFFFF;
+		background-color: #64baea;
+		text-align: left;
+		height: 30px;
+		border-top: 1px solid #95cae7;
+		border-bottom: 1px solid #95cae7;
+	}
+
+	#logbook_add_th .formHeaderBGRight {
+		background-color: #64baea;
+		width: 2px;
+		border-right: 1px solid #95cae7;
+	}
+
+	#logbook_add_th .formColumnBGLeft {
+		background-color: #EEEEEE;
+		border-left: 1px solid #E1E1E1;
+	}
+
+	#logbook_add_th .formColumnCaption {
+		background-color: #EEEEEE;
+		text-align: left;
+	}
+
+	#logbook_add_th .formColumnBGRight {
+		border-right: 1px solid #E1E1E1;
+	}
+
+	#logbook_add_th .formColumnData {
+		height: 28px;
+		border-bottom: 1px dashed #E2E2E2;
+	}
+
+	#logbook_add_th .formFooter {
+		background-color: #8FC2B8;
+		height: 5px;
+	}
+
+	#logbook_add_th .formFooterLeft {
+		background-color: #8FC2B8;
+		width: 2px;
+	}
+
+	#logbook_add_th .formFooterRight {
+		background-color: #8FC2B8;
+		width: 2px;
+	}
+
+	#logbook_add_th .groupSummaryCell {
+		color: #FF5401;
+		background-color: #F5FEFC;
+		height: 25px;
+		border-bottom: 2px solid #ABDCD3;
+	}
+
+	#logbook_add_th .groupSummaryCaption {
+		font-weight: bold;
+		color: #4A4A4A;
+		background-color: #F5FEFC;
+		height: 25px;
+		border-top: 2px solid #ABDCD3;
+	}
+
+	#logbook_add_th .groupCaption {
+		font-weight: bold;
+		color: #408080;
+		background-color: #C1DDD8;
+		height: 25px;
+	}
+

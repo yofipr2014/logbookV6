@@ -1,0 +1,568 @@
+#report_th {
+ margin: 0px;
+ padding: 0px;
+}
+	#report_th table {
+		font-family: Verdana;
+		font-size: 11px;
+		color: #333333;
+	}
+
+	#report_th .gridTable {
+		border-collapse:collapse;
+	}
+
+	#report_th .gridHeader {
+		width: 100%;
+		border: 1px solid #1c9de5;
+		table-layout:fixed;
+	}
+
+	#report_th .gridHeaderBG {
+		background-color: #64baea;
+		height: 30px;
+	}
+
+	#report_th .gridHeaderBGLeft {
+		background-color: #64baea;
+		width: 2px;
+	}
+
+	#report_th .gridHeaderBGRight {
+		background-color: #64baea;
+		width: 2px;
+	}
+
+	#report_th .gridHeaderText {
+		font-family: Verdana;
+		font-size: 11px;
+		font-weight: bold;
+		color: #FFFFFF;
+		text-decoration: none;
+	}
+
+	#report_th .gridToolBar {
+		font-size: 12px;
+		text-decoration: none;
+		background-color: #EEEEEE;
+		height: 25px;
+		width: 100%;
+		padding-right: 2px;
+		padding-left: 2px;
+		border-right: 1px solid #E1E1E1;
+		border-left: 1px solid #E1E1E1;
+	}
+
+	#report_th .gridToolBarText {
+		font-size: 11px;
+		font-weight: bold;
+		color: #333333;
+		text-decoration: none;
+	}
+
+	#report_th a.gridToolBarLink:link {
+		font-size: 11px;
+		font-weight: bold;
+		color: #333333;
+		text-decoration: none;
+	}
+
+	#report_th a.gridToolBarLink:active {
+		font-size: 11px;
+		font-weight: bold;
+		color: #333333;
+		text-decoration: none;
+	}
+
+	#report_th a.gridToolBarLink:visited {
+		font-size: 11px;
+		font-weight: bold;
+		color: #333333;
+		text-decoration: none;
+	}
+
+	#report_th a.gridToolBarLink:hover {
+		font-size: 11px;
+		font-weight: bold;
+		color: #FF8800;
+		text-decoration: none;
+	}
+
+	#report_th .gridMain {
+		width: 100%;
+		border-right: 1px solid #E1E1E1;
+		border-left: 1px solid #E1E1E1;
+	}
+
+	#report_th .gridColumn {
+		background-color: #E1E1E1;
+		text-align: center;
+		height: 25px;
+	}
+
+	#report_th .gridColumnText {
+		font-family: Verdana;
+		font-size: 11px;
+		font-weight: bold;
+		color: #333333;
+		text-decoration: none;
+	}
+
+	#report_th a.gridColumnLink:link {
+		font-family: Verdana;
+		font-size: 11px;
+		color: #333333;
+		text-decoration: none;
+	}
+
+	#report_th a.gridColumnLink:active {
+		font-family: Verdana;
+		font-size: 11px;
+		color: #333333;
+		text-decoration: none;
+	}
+
+	#report_th a.gridColumnLink:visited {
+		font-family: Verdana;
+		font-size: 11px;
+		color: #333333;
+		text-decoration: none;
+	}
+
+	#report_th a.gridColumnLink:hover {
+		font-family: Verdana;
+		font-size: 11px;
+		color: #FF8800;
+		text-decoration: none;
+	}
+
+	#report_th a.gridBodyLink:link {
+		font-family: Verdana;
+		font-size: 11px;
+		color: #333333;
+		text-decoration: none;
+	}
+
+	#report_th a.gridBodyLink:active {
+		font-family: Verdana;
+		font-size: 11px;
+		font-weight: bold;
+		color: #333333;
+		text-decoration: none;
+	}
+
+	#report_th a.gridBodyLink:visited {
+		font-family: Verdana;
+		font-size: 11px;
+		color: #333333;
+		text-decoration: none;
+	}
+
+	#report_th a.gridBodyLink:hover {
+		font-family: Verdana;
+		font-size: 11px;
+		color: #FF8800;
+	}
+
+	#report_th .gridRow td {
+		height: 24px;
+		border-bottom: 1px dotted #E1E1E1;
+	}
+
+	#report_th .gridRowAlternate td {
+		background-color: #F3F3F3;
+		height: 24px;
+		border-bottom: 1px dashed #B8E2DA;
+	}
+
+	#report_th .gridRowOver td {
+		font-weight: bold;
+		background-color: #D1F2EC;
+		height: 24px;
+		border-bottom: 1px dashed #B8E2DA;
+	}
+
+	#report_th .gridFooter {
+		width: 100%;
+		border-right: 1px solid #79C9B9;
+		border-bottom: 1px solid #79C9B9;
+		border-left: 1px solid #79C9B9;
+		table-layout:fixed;
+	}
+
+	#report_th .gridFooterBG {
+		background-color: #8FC2B8;
+		height: 30px;
+	}
+
+	#report_th .gridFooterLeft {
+		background-color: #8FC2B8;
+		height: autopx;
+		width: 2px;
+	}
+
+	#report_th .gridFooterRight {
+		background-color: #8FC2B8;
+		height: 30px;
+		width: 2px;
+	}
+
+	#report_th .gridPagingSelected {
+		font-weight: bold;
+	}
+
+	#report_th a.gridPaging:link {
+		color: #333333;
+		text-decoration: none;
+	}
+
+	#report_th a.gridPaging:active {
+		color: #333333;
+		text-decoration: none;
+	}
+
+	#report_th a.gridPaging:visited {
+		color: #333333;
+		text-decoration: none;
+	}
+
+	#report_th a.gridPaging:hover {
+		color: #FF8800;
+		text-decoration: none;
+	}
+
+	#report_th .gridErrMsg {
+		font-weight: bold;
+		color: #E60415;
+		text-align: left;
+	}
+
+	#sitemenu_report_th .siteMenuHeaderBG {
+		background-color: #64baea;
+		text-align: left;
+		height: 30px;
+		border-top: 1px solid #1c9de5;
+		border-bottom: 1px solid #1c9de5;
+	}
+
+	#sitemenu_report_th .siteMenuHeaderBGLeft {
+		background-color: #64baea;
+		width: 2px;
+		border-left: 1px solid #1c9de5;
+	}
+
+	#sitemenu_report_th .siteMenuHeaderBGRight {
+		background-color: #64baea;
+		width: 2px;
+		border-right: 1px solid #1c9de5;
+	}
+
+	#sitemenu_report_th .siteMenuHeaderText {
+		font-family: Verdana;
+		font-size: 11px;
+		font-weight: bold;
+		color: #FFFFFF;
+	}
+
+	#sitemenu_report_th .siteMenuColumnBGLeft {
+		border-left: 1px solid #E1E1E1;
+	}
+
+	#sitemenu_report_th .siteMenuColumnBGRight {
+		border-right: 1px solid #E1E1E1;
+	}
+
+	#sitemenu_report_th .siteMenu ul {
+		padding: 1px;
+		margin: 1px;
+		list-style-type: none;
+	}
+
+	#sitemenu_report_th .siteMenu ul li {
+		float: left;
+		height: 25px;
+		width: 100%;
+		list-style-position: relative;
+	}
+
+	#sitemenu_report_th .siteMenu a:link {
+		font-family: Verdana;
+		font-size: 11px;
+		color: #1c9de5;
+        font-weight: bold;
+		
+		text-decoration: none;
+		height: 25px;
+		padding-left: 5px;
+	}
+
+	#sitemenu_report_th .siteMenu a:active {
+		font-family: Verdana;
+		font-size: 11px;
+		color: #1c9de5;
+		text-decoration: none;
+		height: 25px;
+		padding-left: 5px;
+	}
+
+	#sitemenu_report_th .siteMenu a:visited {
+		font-family: Verdana;
+		font-size: 11px;
+		/*color: #333333;*/
+        color: #1c9de5;
+		text-decoration: none;
+		height: 25px;
+		padding-left: 5px;
+	}
+
+	#sitemenu_report_th .siteMenu a:hover {
+		font-family: Verdana;
+		font-size: 11px;
+		color: #FF8800;
+		text-decoration: none;
+		height: 25px;
+		width: 100%;
+		padding-left: 5px;
+	}
+
+	#sitemenu_report_th .siteMenu .siteMenuSelected {
+		font-family: Verdana;
+		font-size: 11px;
+		font-weight: bold;
+		color: #1c9de5;
+		height: 25px;
+		width: 100%;
+		padding-left: 5px;
+	}
+
+	#sitemenu_report_th .siteMenuFooter {
+		background-color: #8FC2B8;
+		height: 5px;
+	}
+
+	#mainmenu_report_th .mainMenuBG {
+		font-family: Verdana;
+		font-size: 11px;
+	}
+
+	#mainmenu_report_th .mainMenuText {
+		font-family: Verdana;
+		font-size: 11px;
+		font-weight: bold;
+		color: #333333;
+		text-decoration: none;
+	}
+
+	#mainmenu_report_th .mainMenuLink:link {
+		font-weight: bold;
+		color: #333333;
+		text-decoration: none;
+	}
+
+	#mainmenu_report_th .mainMenuLink:active {
+		font-weight: bold;
+		color: #333333;
+		text-decoration: none;
+	}
+
+	#mainmenu_report_th .mainMenuLink:visited {
+		font-weight: bold;
+		color: #333333;
+		text-decoration: none;
+	}
+
+	#mainmenu_report_th .mainMenuLink:hover {
+		font-weight: bold;
+		color: #FF8800;
+		text-decoration: none;
+	}
+
+	#sch_report_th .schHeaderBGLeft {
+		background-color: #64baea;
+		width: 2px;
+		border-left: 1px solid #1c9de5;
+	}
+
+	#sch_report_th .schHeaderBG {
+		background-color: #64baea;
+		height: 30px;
+		border-top: 1px solid #1c9de5;
+		border-bottom: 1px solid #1c9de5;
+	}
+
+	#sch_report_th .schHeaderBGRight {
+		background-color: #64baea;
+		width: 2px;
+		border-right: 1px solid #1c9de5;
+	}
+
+	#sch_report_th .schHeaderText {
+		font-family: Verdana;
+		font-size: 11px;
+		font-weight: bold;
+		color: #FFFFFF;
+	}
+
+	#sch_report_th .schBody {
+		font-family: Verdana;
+		font-size: 11px;
+		color: #333333;
+		height: 40px;
+	}
+
+	#sch_report_th .schColumnBGLeft {
+		border-left: 1px solid #CCCCCC;
+	}
+
+	#sch_report_th .schColumnBGRight {
+		border-right: 1px solid #CCCCCC;
+	}
+
+	#sch_report_th .schFooter {
+		background-color: #8FC2B8;
+		height: 3px;
+	}
+
+	#report_th .button ,
+	#sch_report_th .button {
+		font-family: Verdana;
+		font-size: 11px;
+		font-weight: bold;
+		color: #FFFFFF;
+		text-decoration: none;
+		background-color: #64baea;
+		height: 23px;
+		border: 1px solid #1c9de5;
+	}
+
+	#report_th .combobox {
+		font-size: 11px;
+		color: #333333;
+		border: 1px solid #7DC4B6;
+	}
+
+	#report_th .textbox ,
+	#sch_report_th .textbox {
+		font-family: Verdana;
+		font-size: 11px;
+		color: #333333;
+		height: 18px;
+		border: 1px solid #7DC4B6;
+	}
+
+	#report_th .textarea {
+		font-family: Verdana;
+		font-size: 11px;
+		color: #333333;
+		border: 1px solid #7DC4B6;
+	}
+
+	#report_th .errMsg {
+		font-weight: bold;
+		color: #DA0515;
+	}
+
+	#report_th a.formLink:link {
+		font-weight: bold;
+		color: #333333;
+		text-decoration: none;
+	}
+
+	#report_th a.formLink:visited {
+		font-weight: bold;
+		color: #333333;
+		text-decoration: none;
+	}
+
+	#report_th a.formLink:active {
+		font-weight: bold;
+		color: #333333;
+		text-decoration: none;
+	}
+
+	#report_th a.formLink:hover {
+		font-weight: bold;
+		color: #FF8800;
+		text-decoration: none;
+	}
+
+	#report_th .formHeaderBGLeft {
+		background-color: #4BA594;
+		width: 2px;
+		border-left: 1px solid #1C8E78;
+	}
+
+	#report_th .formHeaderBG {
+		font-family: Verdana;
+		font-size: 11px;
+		font-weight: bold;
+		color: #FFFFFF;
+		background-color: #4BA594;
+		text-align: left;
+		height: 30px;
+		border-top: 1px solid #1C8E78;
+		border-bottom: 1px solid #1C8E78;
+	}
+
+	#report_th .formHeaderBGRight {
+		background-color: #4BA594;
+		width: 2px;
+		border-right: 1px solid #1C8E78;
+	}
+
+	#report_th .formColumnBGLeft {
+		background-color: #EEEEEE;
+		border-left: 1px solid #E1E1E1;
+	}
+
+	#report_th .formColumnCaption {
+		background-color: #EEEEEE;
+		text-align: left;
+	}
+
+	#report_th .formColumnBGRight {
+		border-right: 1px solid #E1E1E1;
+	}
+
+	#report_th .formColumnData {
+		height: 28px;
+		border-bottom: 1px dashed #E2E2E2;
+	}
+
+	#report_th .formFooter {
+		background-color: #8FC2B8;
+		height: 5px;
+	}
+
+	#report_th .formFooterLeft {
+		background-color: #8FC2B8;
+		width: 2px;
+	}
+
+	#report_th .formFooterRight {
+		background-color: #8FC2B8;
+		width: 2px;
+	}
+
+	#report_th .groupSummaryCell {
+		color: #FF5401;
+		background-color: #F5FEFC;
+		height: 25px;
+		border-bottom: 2px solid #ABDCD3;
+	}
+
+	#report_th .groupSummaryCaption {
+		font-weight: bold;
+		color: #4A4A4A;
+		background-color: #F5FEFC;
+		height: 25px;
+		border-top: 2px solid #ABDCD3;
+	}
+
+	#report_th .groupCaption {
+		font-weight: bold;
+		color: #408080;
+		background-color: #C1DDD8;
+		height: 25px;
+	}
+
